@@ -3,11 +3,25 @@
 import { siteConfig } from "@/lib/site";
 
 export default function ContactForm() {
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    // TODO: wire this up to Formspree, EmailJS, or your own API route
-    // (e.g. app/api/contact/route.ts) to actually receive messages.
-    alert("Demo form — connect this to Formspree, EmailJS, or your own backend to receive messages.");
+    const form = e.currentTarget;
+    const data = new FormData(form);
+
+    const res = await fetch("https://formspree.io/f/mrpzonge", {
+      method: "POST",
+      body: data,
+      headers: { Accept: "application/json" },
+    });
+
+    if (res.ok) {
+      alert("Message sent — thanks! I'll get back to you soon.");
+      form.reset();
+    } else {
+      alert(
+        "Something went wrong sending that — try emailing me directly instead.",
+      );
+    }
   }
 
   return (

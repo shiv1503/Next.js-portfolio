@@ -7,12 +7,12 @@ export const siteConfig = {
   phoneHref: "+918077874641",
   linkedin: "https://www.linkedin.com/in/shivendu-nagar-809b4426a",
   // TODO: replace with your real profile links
-  github: "https://github.com/shiv1503",
+  github: "#",
   twitter: "#",
-  resumeUrl: "/ATS_Resume_Shivendu_Nagar.pdf",
+  resumeUrl: "/resume.pdf",
   description:
     "Shivendu Nagar — Aspiring Software Developer & MCA graduate. Java, Python, React, and computer vision projects.",
-  url: "https://shivendunagar.dev", // TODO: set your real deployed domain
+  url: "https://next-js-portfolio-blond-ten.vercel.app", // update this again if you attach a custom domain later
   roles: [
     "Software Developer",
     "MCA Graduate",
