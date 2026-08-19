@@ -52,7 +52,7 @@ export const projects: Project[] = [
     tags: ["React", "JavaScript", "HTML", "CSS"],
     cardLabel: "DASHBOARD · REACT",
     status: "Status: Completed — personal project",
-    repoUrl: "#",
+    repoUrl: "https://github.com/shiv1503/portfolio.git",
     liveUrl: "#",
     caseStudy: {
       problem:
@@ -73,7 +73,7 @@ export const projects: Project[] = [
     tags: ["Python", "OpenCV", "Computer Vision", "Image Processing"],
     cardLabel: "COMPUTER VISION · PYTHON",
     status: "Status: Completed — academic project",
-    repoUrl: "#",
+    repoUrl: "https://github.com/shiv1503/Safe-Drive-Application.git",
     liveUrl: "#",
     caseStudy: {
       problem:
@@ -94,7 +94,8 @@ export const projects: Project[] = [
     tags: ["Java", "MySQL", "Android (planned)", "Firebase (optional)"],
     cardLabel: "IN PROGRESS · JAVA / ANDROID",
     status: "Status: Under development",
-    repoUrl: "#",
+    repoUrl: "https://github.com/shiv1503/MotoBuddy.git",
+    liveUrl: "#",
     caseStudy: {
       problem:
         "Car and bike enthusiasts who own more than one vehicle don't have a natural home to register, document and show them off — most social apps assume a single-vehicle user. MotoBuddy is built around owning a garage, not just a car.",
