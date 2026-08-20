@@ -107,10 +107,10 @@ export default function ContactForm() {
           <button type="submit" className="btn btn-primary self-start">
             Send Message
           </button>
-          <p className="text-xs text-muted">
+          {/* <p className="text-xs text-muted">
             This form is a UI template — wire it to Formspree, EmailJS, or your own API route to
             make it functional.
-          </p>
+          </p> */}
         </form>
       </div>
     </section>
