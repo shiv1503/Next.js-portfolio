@@ -8,7 +8,7 @@ export default function About() {
           <div className="eyebrow">About</div>
           <h2 className="text-[32px] mb-4">Building, breaking, rebuilding.</h2>
           <p className="text-muted mb-4">
-            <strong className="text-ink">Currently:</strong> finishing an MCA at Graphic Era Hill
+            <strong className="text-ink">Currently:</strong> finished MCA at Graphic Era Hill
             University, spending most nights on side projects instead of Netflix — which is a
             little ironic since one of them is a recommendation engine.
           </p>

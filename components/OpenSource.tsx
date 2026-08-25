@@ -50,8 +50,7 @@ export default function OpenSource() {
                 as they go live.
               </li>
               <li>
-                Python Programming certification (CodSoft) — applied directly in the KNN-based
-                Entertainment Buddy build.
+                 built a few projects in Java, Python, and React. Check out the GitHub profile for more details.
               </li>
               <li>
                 <a
