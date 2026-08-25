@@ -9,7 +9,7 @@ export const siteConfig = {
   // TODO: replace with your real profile links
   github: "https://github.com/shiv1503",
   twitter: "https://x.com/sHiv15032001",
-  resumeUrl: "/Shivendu_Nagar_FullStack_Resume",
+  resumeUrl: "/Shivendu_Nagar_FullStack_Resum.pdf",
   description:
     "Shivendu Nagar — Aspiring Software Developer & MCA graduate. Java, Python, React, and computer vision projects.",
   url: "https://paradox-fs.vercel.app", // update this again if you attach a custom domain later

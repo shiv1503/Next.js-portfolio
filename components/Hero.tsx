@@ -73,7 +73,7 @@ export default function Hero() {
           </a>
           <a
             href={siteConfig.resumeUrl}
-            download="ATS_Resume_Shivendu_Nagar.pdf"
+            download="Shivendu_Nagar_FullStack_Resume.pdf"
             className="btn btn-ghost"
           >
             Download Resume
